@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pro Box Nutrition | Precision Fuel</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <style>
+        .gold-gradient { background: linear-gradient(135deg, #F59E0B 0%, #D97706 100%); }
+        .dark-card { background: #121212; border: 1px solid #262626; }
+        body { background-color: #000; color: white; font-family: 'Inter', sans-serif; }
+    </style>
+</head>
+<body>
+
+    <nav class="flex justify-between items-center p-6 max-w-7xl mx-auto">
+        <div class="text-2xl font-black tracking-tighter text-amber-500">PRO BOX</div>
+        <div class="hidden md:flex space-x-8 text-sm font-medium">
+            <a href="#pricing" class="hover:text-amber-500 transition">Pricing</a>
+            <a href="#partners" class="hover:text-amber-500 transition">Partners</a>
+        </div>
+        <button class="bg-amber-600 text-black px-5 py-2 rounded-full font-bold text-sm hover:bg-amber-500 transition">
+            Trainer Login
+        </button>
+    </nav>
+
+    <header class="py-20 px-6 text-center max-w-4xl mx-auto">
+        <span class="text-amber-500 font-bold tracking-widest text-xs uppercase">Precision Engineered Meals</span>
+        <h1 class="text-5xl md:text-7xl font-black mt-4 mb-6 leading-tight">FUEL YOUR GAINS, <br><span class="text-amber-500">AUTOMATED.</span></h1>
+        <p class="text-gray-400 text-lg mb-10">High-protein, clean-label nutrition designed by trainers, delivered to your gym. Stop guessing, start growing.</p>
+        <div class="flex flex-col md:flex-row justify-center gap-4">
+            <a href="#pricing" class="gold-gradient text-black px-8 py-4 rounded-xl font-bold text-lg">Choose Your Plan</a>
+            <button class="border border-gray-700 px-8 py-4 rounded-xl font-bold text-lg hover:bg-white hover:text-black transition">Book a Tasting</button>
+        </div>
+    </header>
+
+    <section id="pricing" class="py-20 bg-[#0a0a0a]">
+        <div class="max-w-7xl mx-auto px-6 text-center">
+            <h2 class="text-3xl font-bold mb-12 italic underline decoration-amber-500">SELECT YOUR FUEL LEVEL</h2>
+            
+            <div class="grid md:grid-cols-3 gap-8">
+                <div class="dark-card p-8 rounded-3xl relative overflow-hidden">
+                    <h3 class="text-xl font-bold mb-2">Single Order</h3>
+                    <div class="text-4xl font-black mb-6">₹180<span class="text-sm text-gray-500">/meal</span></div>
+                    <ul class="text-left space-x-0 space-y-4 mb-8">
+                        <li class="flex items-center text-gray-400"><i data-lucide="check" class="text-amber-500 mr-2 w-5"></i> 1 High-Protein Meal</li>
+                        <li class="flex items-center text-gray-400"><i data-lucide="check" class="text-amber-500 mr-2 w-5"></i> Choose your macros</li>
+                    </ul>
+                    <button class="w-full py-3 rounded-lg border border-amber-500 text-amber-500 font-bold">Order Now</button>
+                </div>
+
+                <div class="dark-card p-8 rounded-3xl border-2 border-amber-500 relative transform md:-translate-y-4 shadow-2xl shadow-amber-900/20">
+                    <div class="absolute top-0 right-0 gold-gradient text-black text-[10px] font-black px-4 py-1 rounded-bl-xl uppercase">Best Seller</div>
+                    <h3 class="text-xl font-bold mb-2">Weekly Prep</h3>
+                    <div class="text-4xl font-black mb-6">₹170<span class="text-sm text-gray-500">/meal</span></div>
+                    <p class="text-xs text-amber-500 mb-6 font-bold">₹1,020 Total (6 Days)</p>
+                    <ul class="text-left space-x-0 space-y-4 mb-8">
+                        <li class="flex items-center"><i data-lucide="check" class="text-amber-500 mr-2 w-5"></i> 6 Performance Meals</li>
+                        <li class="flex items-center"><i data-lucide="check" class="text-amber-500 mr-2 w-5"></i> Monthly Sando Eligibility</li>
+                        <li class="flex items-center"><i data-lucide="check" class="text-amber-500 mr-2 w-5"></i> Priority Morning Delivery</li>
+                    </ul>
+                    <button class="w-full py-3 rounded-lg gold-gradient text-black font-bold">Get Started</button>
+                </div>
+
+                <div class="dark-card p-8 rounded-3xl relative overflow-hidden">
+                    <h3 class="text-xl font-bold mb-2">Monthly Pro</h3>
+                    <div class="text-4xl font-black mb-6">₹165<span class="text-sm text-gray-500">/meal</span></div>
+                    <p class="text-xs text-gray-500 mb-6 font-bold">₹3,960 Total (24 Days)</p>
+                    <ul class="text-left space-x-0 space-y-4 mb-8">
+                        <li class="flex items-center text-gray-400"><i data-lucide="check" class="text-amber-500 mr-2 w-5"></i> 24 Performance Meals</li>
+                        <li class="flex items-center text-gray-400"><i data-lucide="check" class="text-amber-500 mr-2 w-5"></i> FREE Pro Box T-Shirt</li>
+                        <li class="flex items-center text-gray-400"><i data-lucide="check" class="text-amber-500 mr-2 w-5"></i> 1-on-1 Goal Tracking</li>
+                    </ul>
+                    <button class="w-full py-3 rounded-lg border border-amber-500 text-amber-500 font-bold">Commit Now</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="partners" class="py-20 max-w-7xl mx-auto px-6">
+        <div class="gold-gradient p-1 rounded-3xl">
+            <div class="bg-black rounded-[22px] p-12 flex flex-col md:flex-row items-center justify-between">
+                <div class="mb-8 md:mb-0">
+                    <h2 class="text-3xl font-black mb-4">ARE YOU A TRAINER?</h2>
+                    <p class="text-gray-400">Join our Elite Partner program and earn up to <span class="text-amber-500 font-bold">7% Cashback</span> plus free meals.</p>
+                </div>
+                <button class="gold-gradient text-black px-10 py-4 rounded-2xl font-black shadow-xl shadow-amber-600/30">BECOME A PARTNER</button>
+            </div>
+        </div>
+    </section>
+
+    <script>lucide.createIcons();</script>
+</body>
+</html>
